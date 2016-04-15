@@ -3,8 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>初识WebGL</title>
+		<script type="text/javascript" src="./main.js"></script>
 	</head>
-	<body>
-		
+	<body onload="init()">
+		<div>
+			<h3>原图</h3>
+			<img src="./test.png" />
+			<br/>
+			<h3>canvas默认大小为300x150</h3>
+			<canvas id="canvas0"></canvas>
+			<br/>
+			<h3>通过style改变大小，会导致图片压缩或者拉伸，而不会显示更多图片</h3>
+			<canvas id="canvas2" style="width:400px; height:400px;"></canvas>
+			<br/>
+			<h3>通过属性改变大小，会显示更多图片</h3>
+			<canvas id="canvas1" width="400" height="400"></canvas>
+		</div>
+		<div>
+		</div>
 	</body>
 </html>

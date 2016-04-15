@@ -1,0 +1,7 @@
+#了解WebGL
+
+## 先了解canvas
+canvas对象表示一个HTML画布元素，定义了一些API支持脚本化客户端来绘制图形或者图片，可以通过javascript来操作这些API。
+
+canvas和img标签一样，是可以自定义大小的矩形区域，通过javascript可以对矩形区域进行调整。
+canvas的width、height属性和style中的width、height作用不通
